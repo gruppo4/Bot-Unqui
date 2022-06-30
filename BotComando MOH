@@ -1,0 +1,31 @@
+from telegram.ext import Updater
+from telegram.ext import CommandHandler
+from telegram.ext import MessageHandler, Filters
+
+def start (bot, update):
+	bot.send_message(chat_id= update.message.chat_id, text= "Me quiero ir a mi casa")
+
+
+def mayusculas(bot, update, args):
+    texto_en_mayusculas = ' '.join(args).upper()
+    bot.send_message(chat_id=update.message.chat_id, text=texto_en_mayusculas)
+
+mayusculas_handler = CommandHandler('mayusculas', mayusculas, pass_args=True)
+
+def repetir(bot, update):
+	bot.send_message(chat_id=update.message.chat_id, text="Que onda")
+
+repetir_handler = MessageHandler(Filters.text, repetir)
+
+def Shakira(bot, update):
+	bot.message.reply_text("I'm sorry Dave I'm afraid I can't do that.")
+
+updater = Updater(token='5383322542:AAFCz9K0EK-H-Pxwmw7E0JpDO1GOQ2QWluM')
+dispatcher = updater.dispatcher
+chat_id = (bot.get_updates())[-1].message.chat_id
+
+start_handler = CommandHandler('start', start)
+dispatcher.add_handler(start_handler)
+dispatcher.add_handler(mayusculas_handler)
+dispatcher.add_handler(repetir_handler)
+updater.start_polling()
