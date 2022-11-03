@@ -23,14 +23,15 @@ DROP TABLE IF EXISTS `Carreras_Artes`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Carreras_Artes` (
-  `Licenciatura_Artes_Digitales` varchar(500) DEFAULT NULL,
-  `Licenciatura_Composicion_Medios_Electroacusticos` varchar(500) DEFAULT NULL,
-  `Licenciatura_Musica_Tecnologia` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Creacion_Musical` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Produccion_Digital` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Produccion_musical_Nuevas_Tecnologias` varchar(500) DEFAULT NULL,
-  `Licenciatura_Arte_Tecnologia_CCC` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id_licenciatura` int not NULL,
+  `Licenciatura_Artes_Digitales` varchar(500) not NULL,
+  `Licenciatura_Composicion_Medios_Electroacusticos` varchar(500) not NULL,
+  `Licenciatura_Musica_Tecnologia` varchar(500) not NULL,
+  `Tecnicatura_Creacion_Musical` varchar(500) not NULL,
+  `Tecnicatura_Produccion_Digital` varchar(500) not NULL,
+  `Tecnicatura_Produccion_musical_Nuevas_Tecnologias` varchar(500) not NULL,
+  `Licenciatura_Arte_Tecnologia_CCC` varchar(500) not NULL
+) ENGINE=InnoDB not CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
