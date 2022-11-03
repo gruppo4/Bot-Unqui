@@ -23,15 +23,15 @@ DROP TABLE IF EXISTS `Posgrados`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Posgrados` (
-  `Diplomas` varchar(500) DEFAULT NULL,
-  `Especializacion` varchar(500) DEFAULT NULL,
-  `Maestria` varchar(500) DEFAULT NULL,
-  `Doctorados` varchar(500) DEFAULT NULL,
-  `Cursos_Doctorados_Maestria_posgrado` varchar(500) DEFAULT NULL,
-  `Revista_intercambio` varchar(500) DEFAULT NULL,
-  `PGD_Books` varchar(500) DEFAULT NULL,
-  `Mision_Vision_Posgrado` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Diplomas` varchar(500) not NULL,
+  `Especializacion` varchar(500) not NULL,
+  `Maestria` varchar(500) not NULL,
+  `Doctorados` varchar(500) not NULL,
+  `Cursos_Doctorados_Maestria_posgrado` varchar(500) not NULL,
+  `Revista_intercambio` varchar(500) not NULL,
+  `PGD_Books` varchar(500) not NULL,
+  `Mision_Vision_Posgrado` varchar(500) not NULL
+) ENGINE=InnoDB not CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
