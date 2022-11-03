@@ -23,18 +23,18 @@ DROP TABLE IF EXISTS `Carreras_Economia_Administracion`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Carreras_Economia_Administracion` (
-  `Licenciatura_Administracion_Hotelera` varchar(500) DEFAULT NULL,
-  `Licenciatura_Comercio_Internacional` varchar(500) DEFAULT NULL,
-  `Licenciatura_Economia_Desarrollo` varchar(500) DEFAULT NULL,
-  `Licenciatura_Gestion_Recursos_Humanos` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Economia_Social` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Gestion_Pequeña_Mediana_Empresas` varchar(500) DEFAULT NULL,
-  `Contador_Publico` varchar(500) DEFAULT NULL,
-  `Licenciatura_Administracion` varchar(500) DEFAULT NULL,
-  `Licenciatura_Comercio_Internacional_CCC` varchar(500) DEFAULT NULL,
-  `Licenciatura_Turismo_Hoteleria` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Ciencias_Empresariales` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Licenciatura_Administracion_Hotelera` varchar(500) not NULL,
+  `Licenciatura_Comercio_Internacional` varchar(500) not NULL,
+  `Licenciatura_Economia_Desarrollo` varchar(500) not NULL,
+  `Licenciatura_Gestion_Recursos_Humanos` varchar(500) not NULL,
+  `Tecnicatura_Economia_Social` varchar(500) not NULL,
+  `Tecnicatura_Gestion_Pequeña_Mediana_Empresas` varchar(500) not NULL,
+  `Contador_Publico` varchar(500) not NULL,
+  `Licenciatura_Administracion` varchar(500) not NULL,
+  `Licenciatura_Comercio_Internacional_CCC` varchar(500) not NULL,
+  `Licenciatura_Turismo_Hoteleria` varchar(500) not NULL,
+  `Tecnicatura_Ciencias_Empresariales` varchar(500) not NULL
+) ENGINE=InnoDB not CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
