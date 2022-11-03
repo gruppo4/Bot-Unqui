@@ -23,18 +23,18 @@ DROP TABLE IF EXISTS `Carreras_Ciencia_Tecnologia`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Carreras_Ciencia_Tecnologia` (
-  `Arquitectura_Naval` varchar(500) DEFAULT NULL,
-  `Ing_Alimentos` varchar(500) DEFAULT NULL,
-  `Ing_Control_Industrial` varchar(500) DEFAULT NULL,
-  `Licenciatura_Bioinformatica` varchar(500) DEFAULT NULL,
-  `Licenciatura_Biotecnologia` varchar(500) DEFAULT NULL,
-  `Licenciatura_Informatica` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Biotecnologia` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Programacion_Informatica` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Quimica` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Petroquimica` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Seguridad_Higene` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Arquitectura_Naval` varchar(500) not NULL,
+  `Ing_Alimentos` varchar(500) not NULL,
+  `Ing_Control_Industrial` varchar(500) not NULL,
+  `Licenciatura_Bioinformatica` varchar(500) not NULL,
+  `Licenciatura_Biotecnologia` varchar(500) not NULL,
+  `Licenciatura_Informatica` varchar(500) not NULL,
+  `Tecnicatura_Biotecnologia` varchar(500) not NULL,
+  `Tecnicatura_Programacion_Informatica` varchar(500) not NULL,
+  `Tecnicatura_Quimica` varchar(500) not NULL,
+  `Tecnicatura_Petroquimica` varchar(500) not NULL,
+  `Tecnicatura_Seguridad_Higene` varchar(500) not NULL
+) ENGINE=InnoDB not CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
