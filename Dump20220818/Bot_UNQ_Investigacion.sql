@@ -23,18 +23,18 @@ DROP TABLE IF EXISTS `Investigacion`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Investigacion` (
-  `Institucion_Centros_Investigacion` varchar(500) DEFAULT NULL,
-  `Mision` varchar(500) DEFAULT NULL,
-  `Programas_Proyectos_UNQ` varchar(500) DEFAULT NULL,
-  `PDTS` varchar(500) DEFAULT NULL,
-  `Becas` varchar(500) DEFAULT NULL,
-  `Administracion_subsidios` varchar(500) DEFAULT NULL,
-  `Boletin` varchar(500) DEFAULT NULL,
-  `Incentivos_2017` varchar(500) DEFAULT NULL,
-  `Commite_Etica_Investigacion` varchar(500) DEFAULT NULL,
-  `CVar` varchar(500) DEFAULT NULL,
-  `Evaluacion_funcion` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Institucion_Centros_Investigacion` varchar(500) not NULL,
+  `Mision` varchar(500) not NULL,
+  `Programas_Proyectos_UNQ` varchar(500) not NULL,
+  `PDTS` varchar(500) not NULL,
+  `Becas` varchar(500) not NULL,
+  `Administracion_subsidios` varchar(500) not NULL,
+  `Boletin` varchar(500) not NULL,
+  `Incentivos_2017` varchar(500) not NULL,
+  `Commite_Etica_Investigacion` varchar(500) not NULL,
+  `CVar` varchar(500) not NULL,
+  `Evaluacion_funcion` varchar(500) not NULL
+) ENGINE=InnoDB not CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
