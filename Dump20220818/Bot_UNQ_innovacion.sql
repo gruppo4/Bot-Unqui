@@ -23,11 +23,11 @@ DROP TABLE IF EXISTS `innovacion`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `innovacion` (
-  `Unidades_Ejecutoras` varchar(500) DEFAULT NULL,
-  `Start_Ups` varchar(500) DEFAULT NULL,
-  `Servicio_Tecnologico` varchar(500) DEFAULT NULL,
-  `Productos_Licencias` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Unidades_Ejecutoras` varchar(500) not NULL,
+  `Start_Ups` varchar(500) not NULL,
+  `Servicio_Tecnologico` varchar(500) not NULL,
+  `Productos_Licencias` varchar(500) not NULL
+) ENGINE=InnoDB not CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
