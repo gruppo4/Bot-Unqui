@@ -23,25 +23,25 @@ DROP TABLE IF EXISTS `UNQ`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `UNQ` (
-  `Mision_Funciones_principios` varchar(500) DEFAULT NULL,
-  `Historia` varchar(500) DEFAULT NULL,
-  `Autoridad` varchar(500) DEFAULT NULL,
-  `Gobierno` varchar(500) DEFAULT NULL,
-  `Estatuto_Universitario` varchar(500) DEFAULT NULL,
-  `Unidades_Academicas` varchar(500) DEFAULT NULL,
-  `Escuela_Secundaria_Tecnica` varchar(500) DEFAULT NULL,
-  `Sedes` varchar(500) DEFAULT NULL,
-  `Comunicacion_Institucional` varchar(500) DEFAULT NULL,
-  `Divulgacion_Cientifica` varchar(500) DEFAULT NULL,
-  `PVG` varchar(500) DEFAULT NULL,
-  `Socio_Ambiental` varchar(500) DEFAULT NULL,
-  `UNQ_Sustentable` varchar(500) DEFAULT NULL,
-  `Relaciones_Internacionales` varchar(500) DEFAULT NULL,
-  `Doctores_Honoris_Causa` varchar(500) DEFAULT NULL,
-  `Profesores_Emeritos` varchar(500) DEFAULT NULL,
-  `Informe_anual` varchar(500) DEFAULT NULL,
-  `Telescopi` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Mision_Funciones_principios` varchar(500) not NULL,
+  `Historia` varchar(500) not NULL,
+  `Autoridad` varchar(500) not NULL,
+  `Gobierno` varchar(500) not NULL,
+  `Estatuto_Universitario` varchar(500) not NULL,
+  `Unidades_Academicas` varchar(500) not NULL,
+  `Escuela_Secundaria_Tecnica` varchar(500) not NULL,
+  `Sedes` varchar(500) not NULL,
+  `Comunicacion_Institucional` varchar(500) not NULL,
+  `Divulgacion_Cientifica` varchar(500) not NULL,
+  `PVG` varchar(500) not NULL,
+  `Socio_Ambiental` varchar(500) not NULL,
+  `UNQ_Sustentable` varchar(500) not NULL,
+  `Relaciones_Internacionales` varchar(500) not NULL,
+  `Doctores_Honoris_Causa` varchar(500) not NULL,
+  `Profesores_Emeritos` varchar(500) not NULL,
+  `Informe_anual` varchar(500) not NULL,
+  `Telescopi` varchar(500) not NULL
+) ENGINE=InnoDB not CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
