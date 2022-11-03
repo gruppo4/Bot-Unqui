@@ -23,23 +23,23 @@ DROP TABLE IF EXISTS `Carreras_Ciencias_Sociales`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Carreras_Ciencias_Sociales` (
-  `Licenciatura_Ciencias_Sociales` varchar(500) DEFAULT NULL,
-  `Licenciatura_Comunicacion_Social` varchar(500) DEFAULT NULL,
-  `Licenciatura_Educacion` varchar(500) DEFAULT NULL,
-  `Lincenciatura_Educacion_CCC` varchar(500) DEFAULT NULL,
-  `Licenciatura_Endermeria` varchar(500) DEFAULT NULL,
-  `Licenciatura_Historia` varchar(500) DEFAULT NULL,
-  `Licenciatura_Terapia` varchar(500) DEFAULT NULL,
-  `Profesorado_Ciencias_Sociales` varchar(500) DEFAULT NULL,
-  `Profesorado_Comunicacion_Social` varchar(500) DEFAULT NULL,
-  `Profesorado_Educacion` varchar(500) DEFAULT NULL,
-  `Profesorado_Historia` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Cuidado_Persona_Mayor` varchar(500) DEFAULT NULL,
-  `Licenciatura_Ciencias_Sociales_Humanidades` varchar(500) DEFAULT NULL,
-  `Licenciatura_Educacion_CCC` varchar(500) DEFAULT NULL,
-  `Licenciatura_Geografia_CCC` varchar(500) DEFAULT NULL,
-  `Tecnicatura_Gestion_Medios_Comunicativos` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Licenciatura_Ciencias_Sociales` varchar(500) not NULL,
+  `Licenciatura_Comunicacion_Social` varchar(500) not NULL,
+  `Licenciatura_Educacion` varchar(500) not NULL,
+  `Lincenciatura_Educacion_CCC` varchar(500) not NULL,
+  `Licenciatura_Endermeria` varchar(500) not NULL,
+  `Licenciatura_Historia` varchar(500) not NULL,
+  `Licenciatura_Terapia` varchar(500) not NULL,
+  `Profesorado_Ciencias_Sociales` varchar(500) not NULL,
+  `Profesorado_Comunicacion_Social` varchar(500) not NULL,
+  `Profesorado_Educacion` varchar(500) not NULL,
+  `Profesorado_Historia` varchar(500) not NULL,
+  `Tecnicatura_Cuidado_Persona_Mayor` varchar(500) not NULL,
+  `Licenciatura_Ciencias_Sociales_Humanidades` varchar(500) not NULL,
+  `Licenciatura_Educacion_CCC` varchar(500) not NULL,
+  `Licenciatura_Geografia_CCC` varchar(500) not NULL,
+  `Tecnicatura_Gestion_Medios_Comunicativos` varchar(500) not NULL
+) ENGINE=InnoDB not CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
