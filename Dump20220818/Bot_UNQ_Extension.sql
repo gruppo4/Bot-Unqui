@@ -23,17 +23,17 @@ DROP TABLE IF EXISTS `Extension`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Extension` (
-  `Quienes_Somos` varchar(500) DEFAULT NULL,
-  `Cursos` varchar(500) DEFAULT NULL,
-  `Programas_Proyectos_Extension_Voluntariado` varchar(500) DEFAULT NULL,
-  `Becas` varchar(500) DEFAULT NULL,
-  `Portal_Empleos_UNQ` varchar(500) DEFAULT NULL,
-  `Diplomas_Extension` varchar(500) DEFAULT NULL,
-  `Cultura` varchar(500) DEFAULT NULL,
-  `Deportes` varchar(500) DEFAULT NULL,
-  `Salud_Discapacidad` varchar(500) DEFAULT NULL,
-  `Extension_Redes_Sociales` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Quienes_Somos` varchar(500) not NULL,
+  `Cursos` varchar(500) not NULL,
+  `Programas_Proyectos_Extension_Voluntariado` varchar(500) not NULL,
+  `Becas` varchar(500) not NULL,
+  `Portal_Empleos_UNQ` varchar(500) not NULL,
+  `Diplomas_Extension` varchar(500) not NULL,
+  `Cultura` varchar(500) not NULL,
+  `Deportes` varchar(500) not NULL,
+  `Salud_Discapacidad` varchar(500) not NULL,
+  `Extension_Redes_Sociales` varchar(500) not NULL
+) ENGINE=InnoDB not CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
